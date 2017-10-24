@@ -1,0 +1,44 @@
+﻿{
+	"service": [{
+		"id": "293781839_3434_New_soemthig",		
+		"address": "127.0.0.1",
+		"port": "64921",
+		"checks": [{
+			"name": "http_check_name",
+			"http": "http://127.0.0.1:62133/Service1.svc/MyService/PingMe",
+			"interval": "5s",
+			"timeout": "150s",
+			"newCheckOne" : [{
+				"interval_Last": "5s",
+				"timeout_Last": "150s",
+				"InnerArry": [{
+				"interval_Last_1": "5s",
+				"timeout_Last_1": "150s"
+				}]
+			},
+			{
+				"interval_Last_1": "5s",
+				"timeout_Last_1": "150s"
+			}]
+		}],
+		"address": "127.0.0.1",
+		"checks1": [{
+			"name": "11",
+			"http": "11",
+		},
+		{
+			"name_1": "12",
+			"http_1": "12",
+		}],
+		"id": "293781839_3434_New_soemthig"	
+	}],
+	"AnotheerEx" : "xxxx",
+	"checks5": [{
+			"name_2": "11",
+			"http_2": "11",
+		},
+		{
+			"name_1": "12",
+			"http_1": "12",
+		}]
+}
