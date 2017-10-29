@@ -1,0 +1,27 @@
+﻿{
+	"service": {
+		"id": "293781839_3434_New_soemthig",
+		"port": "64921",
+		"checks": {
+			"name": "http_check_name",
+			"NewOne":"somename",
+			"checks_1": {
+				"interval": "5s",
+				"timeout": "150s",
+				"checks_2": {
+					"name": "http_check_name"
+				},
+				"checks_3": [{
+					"name1": "http_check_name",
+					"NewAdd":"Something"
+				}],
+				"Outliner":"SomeData"
+			}
+		},
+		"Inbetween":"SomeValue",
+		"checks_4": [{
+			"interval": "5s",
+			"timeout": "150s"
+		}]		
+	}
+}
