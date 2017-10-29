@@ -22,14 +22,8 @@ namespace JsonParser
             var generatedObj = ConvertJsonStrToClassStructure(inputText);
 
             Console.WriteLine(generatedObj.ClassSnippet);  // Generated Class structure
-            Console.WriteLine();
-            Console.WriteLine();
             Console.WriteLine(generatedObj.ObjectSnippet); // Generated object initialization structure
-            Console.WriteLine();
-            Console.WriteLine();
             Console.WriteLine(generatedObj.GeneratedObject); //Generated runtime object 
-            Console.WriteLine();
-            Console.WriteLine();
 
             Console.ReadLine();
         }
