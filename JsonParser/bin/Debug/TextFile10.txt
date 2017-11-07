@@ -1,0 +1,13 @@
+﻿{	
+			"NewCheckOne" : 
+			[
+			{
+				"interval_Last": "5s",
+				"timeout_Last": "150s"				   
+			},
+			{
+				"interval_Last_1": "5s",
+				"timeout_Last_1": "150s"
+			}
+			]			
+}

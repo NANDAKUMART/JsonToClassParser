@@ -1,0 +1,42 @@
+﻿{
+    "xxxx":"saddf",
+    "medications":[
+	    {
+            "aceInhibitors":[{
+                "name":"lisinopril",
+                "strength":"10 mg Tab",
+                "dose":"1 tab",
+                "route":"PO",
+                "sig":"daily",
+                "pillCount":"#90",
+                "refills":"Refill 3"
+                  }],
+            "anticoagulants":[{
+                "name":"warfarin sodium",
+                "strength":"3 mg Tab",
+                "dose":"1 tab",
+                "route":"PO",
+                "sig":"daily",
+                "pillCount":"#90",
+                "refills":"Refill 3"
+                }]            
+        }
+		],
+    "labs":[
+        {
+        "name":"BNP",
+        "time":"3 Weeks",
+        "location":"Primary Care Clinic"    
+        },
+		{
+        "name1":"BNP",
+        "time1":"3 Weeks",
+        "location1":"Primary Care Clinic"    
+        }],
+    "imaging":[{
+        "name":"Chest X-Ray",
+        "time":"Today",
+        "location":"Main Hospital Radiology"    
+        }],
+	"xxxx1":"ssdfaddf",
+}
